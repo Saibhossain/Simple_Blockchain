@@ -53,8 +53,11 @@ class Blockchain:
 
 # Create blockchain and add blocks
 my_blockchain = Blockchain()
+my_blockchain1 = Blockchain()
 my_blockchain.add_block("First Transaction")
 my_blockchain.add_block("Second Transaction")
+my_blockchain1.add_block("First Transaction")
 
 # Display the blockchain
 my_blockchain.display_chain()
+my_blockchain1.display_chain()
